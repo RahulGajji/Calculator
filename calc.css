@@ -1,0 +1,83 @@
+
+
+
+body{
+  padding: 20px;
+}
+.outer_container {
+  height: 100vh;
+  position: relative; 
+  
+}
+
+.inner_container{
+  width: 218px; 
+  height: 310px; 
+  background-color: rgb(61, 14, 14); 
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px rgb(186, 186, 186);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.display_container {
+
+  height: 55px;
+  background-color: green;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.p1 {
+
+  text-align: right;
+  padding-top: 10px;
+  font-size: 25px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+
+
+
+.btn {
+
+
+  width: 40px;
+  height: 40px;
+  color: white !important;
+  background-color: rgb(94, 92, 92) !important;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid rgb(160, 160, 160) !important;
+  cursor: pointer;
+  margin: 3px;
+  
+}
+
+.cross_button{
+  
+  background-color: red !important;
+  font-weight: 900 !important;
+  font-size: 17px !important;
+
+}
+
+.clear_button{
+  background-color: rgb(182, 77, 2) !important;
+  font-weight: 800 !important; 
+}
+
+.equal_button{
+  background-color: orange !important;
+  color: black !important;
+  font-weight: 800 !important;
+}

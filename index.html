@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="calc.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+  <div class="container-fluid main_container">
+  <div class="row">
+
+
+      <div class="col-12">
+
+
+        <div id="outer-container" class="outer_container">
+
+          <div id="inner-container" class="inner_container">
+
+             <div class="display_container mb-2">
+                
+               
+                <input class="p1" id="displayNumbers" type="text" placeholder="0" readonly>
+
+              
+             </div>
+
+             <div>
+
+
+                <button class="btn clear_button" onclick="cleardisplay()">C</button>
+                <button class="cross_button btn" onclick="clearonedisplay()">X</button>
+                <button class="btn" onclick="modulusValue('%')">%</button>
+                <button class="btn" onclick="appendValue('/')">/</button>
+
+                <br>
+
+                <button class="btn" onclick="appendValue('7')">7</button>
+                <button class="btn" onclick="appendValue('8')">8</button>
+                <button class="btn" onclick="appendValue('9')">9</button>
+                <button class="btn" onclick="appendValue('*')">x</button>
+
+                <br>
+
+                <button class="btn" onclick="appendValue('4')">4</button>
+                <button class="btn" onclick="appendValue('5')">5</button>
+                <button class="btn" onclick="appendValue('6')"> 6</button>
+                <button class="btn" onclick="appendValue('-')">-</button>
+
+                <br>
+
+                <button class="btn" onclick="appendValue('1')">1</button>
+                <button class="btn" onclick="appendValue('2')">2</button>
+                <button class="btn" onclick="appendValue('3')">3</button>
+                <button class="btn" onclick="appendValue('+')">+</button>
+
+
+
+                <br>
+
+                <button class="btn" onclick="appendValue('00')">00</button>
+                <button class="btn" onclick="appendValue('0')">0</button>
+                <button class="btn" onclick="appendValue('.')">.</button>
+                <button class="btn equal_button" onclick="equatingresult()">=</button>
+
+
+
+             </div>
+ 
+            
+
+
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+  </div>  
+  </div>
+  <script src="calc.js"></script>
+</body>
+</html>
